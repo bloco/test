@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Border</name>
+	<open>0</open>
+	<Style>
+		<ListStyle>
+			<bgColor>00ffffff</bgColor>
+			<maxSnippetLines>0</maxSnippetLines>
+		</ListStyle>
+	</Style>
+	<Folder>
+	<open>0</open>
+	<name>No Mans Land</name>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[
+	
+	<table width='230'><tr><td>
+	<img src='http://k-ita.de/~sl/files/img/nomansland.png'></img>
+	<p>
+	The former Borderstrip of Berlin Wall is sometimes also called 'No Mans Land' or 'Death Strip'.
+	<p>
+	It surrounded former West Berlin  
+	and was situated completely in eastern territory. Most of the Land was enclosed 
+	between two Walls - the 'Berlin Wall' - until its demolition 1989/1990. One of the Walls 
+	faced West Berlin, the other faced the Eastern Berlin/ East German Territory. The 
+	whole Area was heavily secured by GDR Border Troops, Watchtowers, Barricades, 
+	and additional fences and Border installations to prevent escapings to the west. 
+	<p>
+	Today, about 20 years after the deinstallation of the Border and Wall Complex, 
+	it may difficult to trace 
+	its path in the inner City but you still can recognize its shape and 
+	emptiness at many places.
+	<p>
+	<p>
+	<font size='-1'>
+	Layer 2009 (c) <a href=' http://k-ita.de/~sl/'>Stephanie Lange</a><br>
+	Inner City Borderstrip based on Informations provided at berlin.de
+	Outer City Borderstrip is made up by me based on aerial Imagery and Berlin 
+	city borders and is therefore for now only informal.
+	<p>
+	</font>
+	</td></tr></table>
+	]]>
+	</description>
+	
+<NetworkLink>
+    <name>Layer</name>
+    	<Style>
+		<ListStyle>
+			<listItemType>checkHideChildren</listItemType>
+			<bgColor>00ffffff</bgColor>
+			<maxSnippetLines>0</maxSnippetLines>
+		</ListStyle>
+	</Style>
+	<open>0</open>
+	<Region>
+			<LatLonAltBox>
+				<north>52.67</north>
+				<south>52.37</south>
+				<east>13.76</east>
+				<west>13.06</west>
+				<minAltitude>0</minAltitude>
+				<maxAltitude>0</maxAltitude>
+			</LatLonAltBox>
+        <Lod>
+          <minLodPixels>32</minLodPixels>
+          <maxLodPixels>-1</maxLodPixels>
+        </Lod>
+      </Region>
+	<Link>
+		<href>http://k-ita.de/cgi-bin/Border</href>
+		<refreshMode>onInterval</refreshMode>
+		<refreshInterval>43200</refreshInterval>
+		<httpQuery>
+CLIENT=[clientName],VERSION=[clientVersion],KML=[kmlVersion]
+		</httpQuery>
+	</Link>
+</NetworkLink>
+
+
+
+</Folder>
+</Document>
+</kml>
